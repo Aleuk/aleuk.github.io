@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proofix – Sécurité des données / Data safety</title>
+  <meta name="description" content="Données collectées par l'application Proofix et leur utilisation. Data collected by the Proofix app and how it is used." />
+  <link rel="stylesheet" href="../../assets/legal.css" />
+</head>
+
+<body>
+  <main>
+    <a class="back" href="../../">← GC-apps</a>
+
+    <h1>Proofix – Sécurité des données</h1>
+    <p class="meta">Data safety · Dernière mise à jour / Last updated: 14/11/2026</p>
+
+    <nav class="lang-switch" aria-label="Langue / Language">
+      <a href="#fr" hreflang="fr">Français</a>
+      <a href="#en" hreflang="en">English</a>
+    </nav>
+
+    <!-- ===================== FRANÇAIS ===================== -->
+    <section class="lang" id="fr" lang="fr">
+      <h2>Pratiques générales</h2>
+      <ul>
+        <li><strong>Chiffrement :</strong> toutes les données sont transmises de façon chiffrée (HTTPS).</li>
+        <li><strong>Aucun compte :</strong> pas d'inscription, pas de nom ni d'adresse e-mail demandés.</li>
+        <li><strong>Aucune vente</strong> de données.</li>
+        <li><strong>Suppression :</strong> l'historique se supprime dans l'application ; la désinstallation
+          efface toutes les données stockées sur le téléphone. Pour toute autre demande :
+          <a href="mailto:proofix.app@gmail.com">proofix.app@gmail.com</a>.</li>
+      </ul>
+
+      <h2>Données collectées</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Donnée</th><th>Pourquoi</th><th>Par qui</th><th>Conservation</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Textes à corriger ou reformuler</td>
+              <td>Fonctionnement de l'application</td>
+              <td>Notre serveur (Cloudflare), OpenAI</td>
+              <td>Non conservés par notre serveur ; jusqu'à 30 jours chez OpenAI (détection des abus)</td>
+            </tr>
+            <tr>
+              <td>Identifiant d'installation aléatoire, adresse IP</td>
+              <td>Prévention des abus (limite du nombre de demandes)</td>
+              <td>Notre serveur</td>
+              <td>Compteurs temporaires uniquement</td>
+            </tr>
+            <tr>
+              <td>Jeton d'achat Google Play (abonnés Pro)</td>
+              <td>Vérifier l'abonnement</td>
+              <td>Notre serveur, Google Play</td>
+              <td>Résultat de vérification : 1 heure au plus</td>
+            </tr>
+            <tr>
+              <td>Identifiant publicitaire, adresse IP (localisation approximative), infos sur l'appareil, interactions avec les publicités</td>
+              <td>Publicité (version gratuite uniquement), mesure, lutte contre la fraude ; personnalisation avec votre consentement</td>
+              <td>Google AdMob</td>
+              <td>Selon les règles de Google</td>
+            </tr>
+            <tr>
+              <td>Rapports de plantage, infos sur l'appareil</td>
+              <td>Corriger les bugs</td>
+              <td>Firebase Crashlytics (Google)</td>
+              <td>90 jours</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Données qui restent sur votre téléphone</h2>
+      <ul>
+        <li>Historique des corrections et reformulations (jamais envoyé).</li>
+        <li>Choix de style, identifiant d'installation, jeton d'achat.</li>
+      </ul>
+
+      <h2>Données jamais collectées</h2>
+      <p>
+        Nom, adresse e-mail, numéro de téléphone, contacts, photos, fichiers, localisation précise,
+        coordonnées bancaires (le paiement est géré par Google Play).
+      </p>
+
+      <p>Détails complets : <a href="../privacy-policy/">politique de confidentialité</a>.</p>
+    </section>
+
+    <!-- ===================== ENGLISH ===================== -->
+    <section class="lang" id="en" lang="en">
+      <h2>General practices</h2>
+      <ul>
+        <li><strong>Encryption:</strong> all data is sent encrypted (HTTPS).</li>
+        <li><strong>No account:</strong> no sign-up, no name or email address requested.</li>
+        <li><strong>We do not sell</strong> data.</li>
+        <li><strong>Deletion:</strong> history can be cleared in the app; uninstalling removes all data
+          stored on the phone. For any other request:
+          <a href="mailto:proofix.app@gmail.com">proofix.app@gmail.com</a>.</li>
+      </ul>
+
+      <h2>Data collected</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Data</th><th>Why</th><th>By whom</th><th>Retention</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Texts to proofread or rephrase</td>
+              <td>App functionality</td>
+              <td>Our server (Cloudflare), OpenAI</td>
+              <td>Not stored by our server; up to 30 days at OpenAI (abuse monitoring)</td>
+            </tr>
+            <tr>
+              <td>Random installation identifier, IP address</td>
+              <td>Abuse prevention (request limits)</td>
+              <td>Our server</td>
+              <td>Temporary counters only</td>
+            </tr>
+            <tr>
+              <td>Google Play purchase token (Pro subscribers)</td>
+              <td>Subscription check</td>
+              <td>Our server, Google Play</td>
+              <td>Check result: one hour at most</td>
+            </tr>
+            <tr>
+              <td>Advertising ID, IP address (approximate location), device information, ad interactions</td>
+              <td>Advertising (free version only), measurement, fraud prevention; personalization with your consent</td>
+              <td>Google AdMob</td>
+              <td>According to Google's rules</td>
+            </tr>
+            <tr>
+              <td>Crash reports, device information</td>
+              <td>Fixing bugs</td>
+              <td>Firebase Crashlytics (Google)</td>
+              <td>90 days</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Data that stays on your phone</h2>
+      <ul>
+        <li>History of corrections and rephrasings (never sent).</li>
+        <li>Style choice, installation identifier, purchase token.</li>
+      </ul>
+
+      <h2>Data never collected</h2>
+      <p>
+        Name, email address, phone number, contacts, photos, files, precise location, payment details
+        (payment is handled by Google Play).
+      </p>
+
+      <p>Full details: <a href="../privacy-policy/#en">privacy policy</a>.</p>
+    </section>
+
+    <footer>© <span id="year"></span> GC-apps</footer>
+  </main>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

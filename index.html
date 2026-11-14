@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GC-apps</title>
-  <meta name="description" content="GC-apps developer website. Discover our mobile applications on Google Play and the App Store." />
+  <meta name="description" content="GC-apps developer website. Discover our mobile applications on Google Play." />
 
   <style>
     :root {
@@ -120,8 +120,21 @@
       color: #ffffff;
     }
 
-    .apple {
-      color: #ffffff;
+    .legal-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px 18px;
+      margin-top: 16px;
+      font-size: 0.92rem;
+    }
+
+    .legal-links a {
+      color: var(--muted);
+    }
+
+    .legal-links a:hover {
+      color: var(--text);
     }
 
     .badge {
@@ -186,16 +199,11 @@
             <span class="badge">▶</span>
             <span>Get it on Google Play</span>
           </a>
+        </div>
 
-          <a
-            class="store-link apple"
-            href="https://apps.apple.com/us/app/proofix/id6753622066?l=fr-FR"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="badge"></span>
-            <span>Download on the App Store</span>
-          </a>
+        <div class="legal-links">
+          <a href="./proofix/privacy-policy/">Privacy policy</a>
+          <a href="./proofix/data-safety/">Data safety</a>
         </div>
       </article>
 
@@ -215,16 +223,11 @@
             <span class="badge">▶</span>
             <span>Get it on Google Play</span>
           </a>
+        </div>
 
-          <a
-            class="store-link apple"
-            href="https://apps.apple.com/us/app/read-your-bible-app/id6773084366"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span class="badge"></span>
-            <span>Download on the App Store</span>
-          </a>
+        <div class="legal-links">
+          <a href="./read-your-bible/privacy-policy/">Privacy policy</a>
+          <a href="./read-your-bible/privacy-policy/#delete-account">Delete your account</a>
         </div>
       </article>
     </section>
