@@ -13,7 +13,7 @@
     <a class="back" href="../../">← GC-apps</a>
 
     <h1>Proofix – Politique de confidentialité</h1>
-    <p class="meta">Privacy policy · Dernière mise à jour / Last updated: 14/11/2026</p>
+    <p class="meta">Privacy policy · Dernière mise à jour / Last updated: 18/11/2026</p>
 
     <nav class="lang-switch" aria-label="Langue / Language">
       <a href="#fr" hreflang="fr">Français</a>
@@ -62,8 +62,8 @@
         À la première ouverture, l'application crée un identifiant aléatoire, sans lien avec votre identité
         ni avec votre appareil. Il est envoyé avec chaque demande, avec votre adresse IP (reçue par tout
         serveur internet), uniquement pour limiter le nombre de demandes et empêcher les abus. Ils ne sont
-        pas conservés au-delà de ces compteurs temporaires. L'identifiant disparaît quand vous désinstallez
-        l'application.
+        pas conservés au-delà de ces compteurs temporaires (sauf pour les vidéos avec récompense, voir
+        ci-dessous). L'identifiant disparaît quand vous désinstallez l'application.
       </p>
 
       <h3>Abonnement Proofix Pro</h3>
@@ -91,6 +91,20 @@
         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">utilisation des données par Google</a>.
       </p>
 
+      <h3>Vidéos avec récompense (version gratuite)</h3>
+      <p>
+        Dans la version gratuite, vous pouvez choisir de regarder une courte vidéo publicitaire (Google AdMob)
+        pour utiliser une fois un style de reformulation de Proofix Pro, dans la limite de 3 vidéos par jour.
+        Ces vidéos sont facultatives : elles ne s'affichent que si vous le demandez.
+        Pour vérifier que la vidéo a bien été regardée, l'application transmet à AdMob son identifiant
+        d'installation et un code à usage unique ; Google les renvoie ensuite à notre serveur avec une
+        signature, sans aucune autre information vous concernant. Notre serveur conserve ce code,
+        l'identifiant d'installation, un identifiant de transaction fourni par Google et les dates de la vidéo
+        et de son utilisation pendant 2 jours au plus, pour appliquer la limite quotidienne et empêcher
+        qu'une même vidéo serve plusieurs fois. Les données collectées par AdMob pendant la vidéo
+        sont décrites au paragraphe « Publicité ».
+      </p>
+
       <h3>Rapports de plantage</h3>
       <p>
         Si l'application plante, Firebase Crashlytics (Google) envoie un rapport technique : trace de
@@ -115,7 +129,7 @@
 
       <h2>4. Bases légales (RGPD)</h2>
       <ul>
-        <li><strong>Exécution du service</strong> que vous demandez : traitement des textes, abonnement.</li>
+        <li><strong>Exécution du service</strong> que vous demandez : traitement des textes, abonnement, vidéos avec récompense.</li>
         <li><strong>Intérêt légitime</strong> : sécurité et prévention des abus, correction des plantages.</li>
         <li><strong>Consentement</strong> : publicité personnalisée (retirable à tout moment).</li>
       </ul>
@@ -133,6 +147,7 @@
         <li>Textes : non conservés par notre serveur ; jusqu'à 30 jours chez OpenAI (détection des abus).</li>
         <li>Historique et jeton d'achat : sur votre téléphone, jusqu'à leur suppression ou la désinstallation.</li>
         <li>Vérification d'abonnement : au plus une heure.</li>
+        <li>Vidéos avec récompense (code, identifiant d'installation, dates) : 2 jours au plus.</li>
         <li>Rapports de plantage : 90 jours.</li>
         <li>Publicité : selon les règles de Google.</li>
       </ul>
@@ -202,7 +217,7 @@
         On first launch, the app creates a random identifier, unrelated to your identity or your device.
         It is sent with each request, together with your IP address (received by any internet server),
         only to limit the number of requests and prevent abuse. They are not kept beyond these temporary
-        counters. The identifier is removed when you uninstall the app.
+        counters (except for rewarded videos, see below). The identifier is removed when you uninstall the app.
       </p>
 
       <h3>Proofix Pro subscription</h3>
@@ -227,6 +242,18 @@
         <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">how Google uses data</a>.
       </p>
 
+      <h3>Rewarded videos (free version)</h3>
+      <p>
+        In the free version, you can choose to watch a short video ad (Google AdMob) to use a Proofix Pro
+        rephrasing style once, up to 3 videos per day. These videos are optional: they are only shown when
+        you ask for them. To check that the video was watched, the app passes its installation identifier
+        and a single-use code to AdMob; Google then sends them back to our server with a signature, with no
+        other information about you. Our server keeps this code, the installation identifier, a transaction
+        identifier provided by Google and the dates of the video and of its use for at most 2 days, to apply
+        the daily limit and prevent a video from being used more than once. The data collected by AdMob during
+        the video is described under “Advertising”.
+      </p>
+
       <h3>Crash reports</h3>
       <p>
         If the app crashes, Firebase Crashlytics (Google) sends a technical report: error trace, device
@@ -247,7 +274,7 @@
 
       <h2>4. Legal bases (GDPR)</h2>
       <ul>
-        <li><strong>Performance of the service</strong> you request: text processing, subscription.</li>
+        <li><strong>Performance of the service</strong> you request: text processing, subscription, rewarded videos.</li>
         <li><strong>Legitimate interest</strong>: security and abuse prevention, crash fixing.</li>
         <li><strong>Consent</strong>: personalized advertising (can be withdrawn at any time).</li>
       </ul>
@@ -265,6 +292,7 @@
         <li>Texts: not stored by our server; up to 30 days at OpenAI (abuse monitoring).</li>
         <li>History and purchase token: on your phone, until you delete them or uninstall the app.</li>
         <li>Subscription check: at most one hour.</li>
+        <li>Rewarded videos (code, installation identifier, dates): at most 2 days.</li>
         <li>Crash reports: 90 days.</li>
         <li>Advertising: according to Google's rules.</li>
       </ul>
